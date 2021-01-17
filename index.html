@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    # #Länkar till alla de andra sidorna som ska interagera med denna sida
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="About.html">
+    <link rel="stylesheet" href="game devs.html">
+    <link rel="stylesheet" href="game previu.html">
+    <link rel="stylesheet" href="BuyGame.html">
+    <link rel="stylesheet" href="spelbild.jpg">
+    #Bakgrundsfärg (svart) och länkar byter färg när man hovrar över dem med musen
+    <style>
+        body {
+            background-color: black;
+            background-image: url("../spelbild.jpg");
+        }
+        a:hover{
+            color: blueviolet;
+            background-color: transparent;
+        }
+    </style>
+    #Sidans namn
+    <title>tHIS is a game</title>
+</head>
+<body>
+    #Container2 och item2 skapar tillsammans en rubrik
+    <div class="container2">
+        <div class="item2">Huntings</div>
+    </div>
+    #Container och och de tre "item" skapar länkar till tre informativa sidor
+    <div class="container">
+        <div class="item"><a href="About.html">About the game</a></div>
+        <div class="item"><a href="game devs.html">Game developers</a></div>
+        <div class="item"><a href="game previu.html">Game preview</div>
+    </div>
+    #container3 och item3 här skapar en länk till sidan där man köper spelet
+    <div class="container3">
+        <div class="item3"><a href="BuyGame.html">Buy game</a></div>
+    </div>
+</body>
+</html>

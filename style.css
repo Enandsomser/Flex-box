@@ -1,0 +1,62 @@
+/*container2 som gör flex-boxen till columner som uppifrån ner*/
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 100px;
+    justify-content: center;
+}
+/*item2 som fixar till så att titeln på första sidan passar bra och ser bra ut*/
+.item2 {
+    display: flex;
+    height: 115px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: red;
+    border: 3px solid white;
+    justify-content: center;
+    align-content: center;
+    font-size: 70px;    
+    padding-bottom: 8%;
+}
+/*denna container skapar ett mönster som går från sida till sida*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.item {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 33%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    border: 3px solid white;
+    font-size: 25px;
+    background-image: url();
+}
+/*container3 är exakt likadan som container2, anledningen till att jag gjorde en till var att jag trode att jag skulle göra små ändringar till den men det hände inte*/
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 100px;
+    justify-content: center;
+}
+/*item3 är som item två fast med små visuella ändringar*/
+.item3 {
+    display: flex;
+    width: 25%;
+    height: 115px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 3px solid white;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;    
+    padding-bottom: 8%;
+    fo
+}
